@@ -211,6 +211,8 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
+  # 自行添加，使.md文件中支持集合等数学公式
+  math_engine: mathjax
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
